@@ -94,7 +94,7 @@ dependencies:
     version: 1.12.3
   vanilla-cookieconsent:
     specifier: next
-    version: 3.0.0-rc.14
+    version: 3.0.0-rc.16
   zod:
     specifier: ^3.21.4
     version: 3.21.4
@@ -7348,7 +7348,7 @@ packages:
       levn: 0.4.1
       prelude-ls: 1.2.1
       type-check: 0.4.0
-      word-wrap: 1.2.3
+      word-wrap: 1.2.4
     dev: true
 
   /ora@5.4.1:
@@ -9151,9 +9151,8 @@ packages:
       spdx-expression-parse: 3.0.1
     dev: true
 
-  /vanilla-cookieconsent@3.0.0-rc.14:
-    resolution: {integrity: sha512-rYqY5Xb2SaY6w7BEoaTUJ/ICKKDCQlkCEnF3DtensMj3WZyVW3BE0Lygi9SwjgjHKDVHlme5baztPG2UqR8ymQ==}
-    requiresBuild: true
+  /vanilla-cookieconsent@3.0.0-rc.16:
+    resolution: {integrity: sha512-H1ShihSrrQ4xJdN4gS2lQMPxzW8DIsYu/xhKqpRbDUZYYVXFLsuLycZB1IWkLhN3mU0bJLL4Eu+A0UlCipdi1w==}
     dev: false
 
   /vfile-message@3.1.4:
@@ -9287,8 +9286,8 @@ packages:
     dependencies:
       isexe: 2.0.0
 
-  /word-wrap@1.2.3:
-    resolution: {integrity: sha512-Hz/mrNwitNRh/HUAtM/VT/5VH+ygD6DV7mYKZAtHOrbs8U7lvPS6xf7EJKMF0uW1KJCl0H701g3ZGus+muE5vQ==}
+  /word-wrap@1.2.4:
+    resolution: {integrity: sha512-2V81OA4ugVo5pRo46hAoD2ivUJx8jXmWXfUkY4KFNw0hEptvN0QfH3K4nHiwzGeKl5rFKedV48QVoqYavy4YpA==}
     engines: {node: '>=0.10.0'}
     dev: true
 

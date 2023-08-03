@@ -94,7 +94,7 @@ dependencies:
     version: 1.12.3
   vanilla-cookieconsent:
     specifier: next
-    version: 3.0.0-rc.14
+    version: 3.0.0-rc.16
   zod:
     specifier: ^3.21.4
     version: 3.21.4
@@ -1115,7 +1115,7 @@ packages:
       json5: 2.2.3
       msgpackr: 1.9.5
       nullthrows: 1.1.1
-      semver: 5.7.1
+      semver: 5.7.2
     dev: false
 
   /@parcel/diagnostic@2.9.1:
@@ -1199,7 +1199,7 @@ packages:
       '@parcel/fs': 2.9.1(@parcel/core@2.9.1)
       '@parcel/utils': 2.9.1
       nullthrows: 1.1.1
-      semver: 5.7.1
+      semver: 5.7.2
     transitivePeerDependencies:
       - '@parcel/core'
     dev: false
@@ -1304,7 +1304,7 @@ packages:
       '@parcel/types': 2.9.1(@parcel/core@2.9.1)
       '@parcel/utils': 2.9.1
       '@parcel/workers': 2.9.1(@parcel/core@2.9.1)
-      semver: 5.7.1
+      semver: 5.7.2
     dev: false
 
   /@parcel/packager-css@2.9.1(@parcel/core@2.9.1):
@@ -1479,7 +1479,7 @@ packages:
       browserslist: 4.21.8
       json5: 2.2.3
       nullthrows: 1.1.1
-      semver: 5.7.1
+      semver: 5.7.2
     transitivePeerDependencies:
       - '@parcel/core'
     dev: false
@@ -1521,7 +1521,7 @@ packages:
       posthtml: 0.16.6
       posthtml-parser: 0.10.2
       posthtml-render: 3.0.0
-      semver: 5.7.1
+      semver: 5.7.2
       srcset: 4.0.0
     transitivePeerDependencies:
       - '@parcel/core'
@@ -1565,7 +1565,7 @@ packages:
       browserslist: 4.21.8
       nullthrows: 1.1.1
       regenerator-runtime: 0.13.11
-      semver: 5.7.1
+      semver: 5.7.2
     dev: false
 
   /@parcel/transformer-json@2.9.1(@parcel/core@2.9.1):
@@ -1601,7 +1601,7 @@ packages:
       clone: 2.1.2
       nullthrows: 1.1.1
       postcss-value-parser: 4.2.0
-      semver: 5.7.1
+      semver: 5.7.2
     transitivePeerDependencies:
       - '@parcel/core'
     dev: false
@@ -1616,7 +1616,7 @@ packages:
       posthtml: 0.16.6
       posthtml-parser: 0.10.2
       posthtml-render: 3.0.0
-      semver: 5.7.1
+      semver: 5.7.2
     transitivePeerDependencies:
       - '@parcel/core'
     dev: false
@@ -1676,7 +1676,7 @@ packages:
       posthtml: 0.16.6
       posthtml-parser: 0.10.2
       posthtml-render: 3.0.0
-      semver: 5.7.1
+      semver: 5.7.2
     transitivePeerDependencies:
       - '@parcel/core'
     dev: false
@@ -6521,7 +6521,7 @@ packages:
     requiresBuild: true
     dependencies:
       pify: 4.0.1
-      semver: 5.7.1
+      semver: 5.7.2
     dev: false
     optional: true
 
@@ -8275,8 +8275,8 @@ packages:
       ajv-keywords: 3.5.2(ajv@6.12.6)
     dev: false
 
-  /semver@5.7.1:
-    resolution: {integrity: sha512-sauaDf/PZdVgrLTNYHRtpXa1iRiKcaebiKQ1BJdpQlWH2lCvexQdX55snPFyK7QzpudqbCI0qXFfOasHdyNDGQ==}
+  /semver@5.7.2:
+    resolution: {integrity: sha512-cBznnQ9KjJqU67B52RMC65CMarK2600WFnbkcaiwWq3xy/5haFJlshgnpjovMVJ+Hff49d8GEn0b87C5pDQ10g==}
     hasBin: true
     dev: false
 
@@ -9151,9 +9151,8 @@ packages:
       spdx-expression-parse: 3.0.1
     dev: true
 
-  /vanilla-cookieconsent@3.0.0-rc.14:
-    resolution: {integrity: sha512-rYqY5Xb2SaY6w7BEoaTUJ/ICKKDCQlkCEnF3DtensMj3WZyVW3BE0Lygi9SwjgjHKDVHlme5baztPG2UqR8ymQ==}
-    requiresBuild: true
+  /vanilla-cookieconsent@3.0.0-rc.16:
+    resolution: {integrity: sha512-H1ShihSrrQ4xJdN4gS2lQMPxzW8DIsYu/xhKqpRbDUZYYVXFLsuLycZB1IWkLhN3mU0bJLL4Eu+A0UlCipdi1w==}
     dev: false
 
   /vfile-message@3.1.4:
